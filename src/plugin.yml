@@ -1,0 +1,14 @@
+name: CustomNick
+author: MarcTheDev
+version: 1.2
+main: me.customnick.plugin.Main
+description: Custom Nick Plugin.
+commands:
+     nicknames:
+          aliases: [nicks, nick, nickname]
+          usage: /<command>
+          description: Nickname Command
+permissions:
+     nick.commands:
+          default: op
+          description: Nickname Permission.
